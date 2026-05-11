@@ -44,7 +44,7 @@ export default function Hero() {
               </a>
             </div>
 
-            <dl className="mt-12 grid max-w-xl grid-cols-3 gap-6 pt-6 shadow-[var(--shadow-top-line)]">
+            <dl className="mt-12 grid max-w-xl grid-cols-3 gap-6">
               <Stat
                 value="7"
                 label="Properties in our European portfolio"

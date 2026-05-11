@@ -1,6 +1,7 @@
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import LogoStrip from './components/LogoStrip';
+import CommissionMath from './components/CommissionMath';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <main id="main">
         <Hero />
         <LogoStrip />
+        <CommissionMath />
       </main>
     </div>
   );

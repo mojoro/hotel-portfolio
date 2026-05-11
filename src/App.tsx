@@ -6,6 +6,7 @@ import DirectVsOTA from './components/DirectVsOTA';
 import Services from './components/Services';
 import Process from './components/Process';
 import Portfolio from './components/Portfolio';
+import BestFit from './components/BestFit';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Services />
         <Process />
         <Portfolio />
+        <BestFit />
       </main>
     </div>
   );

@@ -118,7 +118,7 @@ export default function Portfolio() {
                 <p className="mt-2 text-sm leading-relaxed text-ink-700">
                   {p.blurb}
                 </p>
-                <div className="mt-auto flex items-center justify-between gap-4 pt-9 shadow-[var(--shadow-top-line)] text-xs text-ink-500">
+                <div className="mt-auto flex items-center justify-between gap-4 pt-3 shadow-[var(--shadow-top-line)] text-xs text-ink-500">
                   <span className="shrink-0 font-medium uppercase tracking-wider">
                     {p.location}
                   </span>

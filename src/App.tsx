@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Process from './components/Process';
 import Portfolio from './components/Portfolio';
 import BestFit from './components/BestFit';
+import Approach from './components/Approach';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Process />
         <Portfolio />
         <BestFit />
+        <Approach />
       </main>
     </div>
   );

@@ -1,5 +1,6 @@
 import Nav from './components/Nav';
 import Hero from './components/Hero';
+import LogoStrip from './components/LogoStrip';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Nav />
       <main id="main">
         <Hero />
+        <LogoStrip />
       </main>
     </div>
   );

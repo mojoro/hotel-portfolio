@@ -90,8 +90,9 @@ export default function Nav() {
         ].join(' ')}
       >
         <nav
+          aria-label="Mobile"
           className={[
-            'mx-auto flex min-h-0 w-full max-w-7xl flex-col gap-1 overflow-hidden px-6 py-4 transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none',
+            'mx-auto flex min-h-0 w-full max-w-7xl flex-col items-start gap-0.5 overflow-hidden px-6 py-3 transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none',
             open ? 'translate-y-0' : '-translate-y-2',
           ].join(' ')}
         >
@@ -101,7 +102,7 @@ export default function Nav() {
               href={l.href}
               tabIndex={open ? undefined : -1}
               onClick={() => setOpen(false)}
-              className="rounded-lg px-3 py-2 text-base font-medium text-ink-800 transition-colors hover:bg-sand-100"
+              className="-mx-2 rounded-lg px-2 py-1.5 text-base font-medium text-ink-800 transition-colors hover:bg-sand-100"
             >
               {l.label}
             </a>
@@ -110,7 +111,7 @@ export default function Nav() {
             href="#audit"
             tabIndex={open ? undefined : -1}
             onClick={() => setOpen(false)}
-            className="mt-2 inline-flex items-center justify-center rounded-full bg-ink-900 px-4 py-2 text-sm font-medium text-sand-50 shadow-[var(--shadow-cta)]"
+            className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-ink-900 px-4 py-2.5 text-sm font-medium text-sand-50 shadow-[var(--shadow-cta)]"
           >
             Free hotel audit
           </a>

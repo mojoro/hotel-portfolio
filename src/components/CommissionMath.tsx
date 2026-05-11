@@ -51,7 +51,7 @@ export default function CommissionMath() {
             <Slider
               label="Average Daily Rate (ADR)"
               value={adr}
-              min={120}
+              min={40}
               max={900}
               step={5}
               prefix="$"

@@ -5,6 +5,7 @@ import CommissionMath from './components/CommissionMath';
 import DirectVsOTA from './components/DirectVsOTA';
 import Services from './components/Services';
 import Process from './components/Process';
+import Portfolio from './components/Portfolio';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <DirectVsOTA />
         <Services />
         <Process />
+        <Portfolio />
       </main>
     </div>
   );

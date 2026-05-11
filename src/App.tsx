@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import LogoStrip from './components/LogoStrip';
 import CommissionMath from './components/CommissionMath';
 import DirectVsOTA from './components/DirectVsOTA';
+import Services from './components/Services';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <LogoStrip />
         <CommissionMath />
         <DirectVsOTA />
+        <Services />
       </main>
     </div>
   );

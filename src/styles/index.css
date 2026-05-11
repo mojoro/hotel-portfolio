@@ -75,3 +75,49 @@
     inset 0 -1px 0 rgba(255, 255, 255, 0.55), 0 1px 0 rgba(6, 15, 31, 0.05),
     0 -1px 0 rgba(6, 15, 31, 0.05);
 }
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+
+  @supports (font-variation-settings: normal) {
+    html {
+      font-family: 'Inter var', var(--font-sans);
+    }
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-sand-50);
+    color: var(--color-ink-900);
+    font-feature-settings: 'cv11', 'ss01';
+  }
+
+  ::selection {
+    background-color: var(--color-ink-900);
+    color: var(--color-sand-50);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-feature-settings: 'ss01';
+    letter-spacing: -0.015em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brass-500);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}

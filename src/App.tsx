@@ -9,6 +9,7 @@ import Portfolio from './components/Portfolio';
 import BestFit from './components/BestFit';
 import Approach from './components/Approach';
 import FAQ from './components/FAQ';
+import FinalCTA from './components/FinalCTA';
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
         <BestFit />
         <Approach />
         <FAQ />
+        <FinalCTA />
       </main>
     </div>
   );

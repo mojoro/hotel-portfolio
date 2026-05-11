@@ -70,9 +70,9 @@ export default function Nav() {
             onClick={() => setOpen((v) => !v)}
             className="grid h-10 w-10 place-items-center rounded-full text-ink-900 shadow-[var(--shadow-inset-line)] md:hidden"
           >
-            <svg width="18" height="14" viewBox="0 0 18 14" fill="none">
+            <svg width={open ? 14 : 18} height={open ? 14 : 14} viewBox={open ? '0 0 14 14' : '0 0 18 14'} fill="none">
               <path
-                d={open ? 'M2 2L16 12 M16 2L2 12' : 'M2 2H16 M2 7H16 M2 12H16'}
+                d={open ? 'M3 3L11 11 M11 3L3 11' : 'M2 2H16 M2 7H16 M2 12H16'}
                 stroke="currentColor"
                 strokeWidth="1.5"
                 strokeLinecap="round"

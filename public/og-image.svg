@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f3a"/>
+      <stop offset="100%" stop-color="#122a4b"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c89b5a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#c89b5a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="160" r="220" fill="url(#warm)"/>
+  <g transform="translate(80, 110)">
+    <rect width="44" height="44" rx="12" fill="#fbf9f4"/>
+    <path d="M11 33V18l11-7 11 7v15" fill="none" stroke="#0b1f3a" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M11 33h22" stroke="#0b1f3a" stroke-width="2.5"/>
+    <path d="M18 33v-9h8v9" fill="none" stroke="#c89b5a" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="60" y="22" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#fbf9f4" letter-spacing="0.4">HOTEL ONLINE MARKETING</text>
+    <text x="60" y="40" font-family="Inter, sans-serif" font-size="12" fill="#b1c1d8" letter-spacing="2">DIRECT BOOKINGS · U.S.</text>
+  </g>
+  <text x="80" y="320" font-family="Fraunces, serif" font-size="76" font-weight="500" fill="#fbf9f4" letter-spacing="-1.5">Stop renting your guests</text>
+  <text x="80" y="400" font-family="Fraunces, serif" font-size="76" font-weight="500" fill="#fbf9f4" letter-spacing="-1.5">from Booking.com.</text>
+  <text x="80" y="490" font-family="Inter, sans-serif" font-size="24" fill="#d9e1ee">AI-optimized websites, conversion funnels, and search</text>
+  <text x="80" y="522" font-family="Inter, sans-serif" font-size="24" fill="#d9e1ee">visibility for independent U.S. hotels.</text>
+  <rect x="78" y="560" width="180" height="2" fill="#c89b5a"/>
+</svg>

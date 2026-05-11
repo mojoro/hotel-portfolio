@@ -41,4 +41,20 @@
   /* Dark-surface hairline (ink-900). */
   --shadow-inset-line-dark: inset 0 0 0 1px rgba(255, 255, 255, 0.09),
     0 0 0 1px rgba(0, 0, 0, 0.22);
+
+  /* Elevated cards on light surfaces. */
+  --shadow-card: inset 0 0 0 1px rgba(255, 255, 255, 0.6),
+    0 0 0 1px rgba(6, 15, 31, 0.05), 0 1px 2px rgba(11, 31, 58, 0.05),
+    0 8px 24px -8px rgba(11, 31, 58, 0.09);
+  --shadow-card-hover: inset 0 0 0 1px rgba(255, 255, 255, 0.6),
+    0 0 0 1px rgba(6, 15, 31, 0.05), 0 4px 8px rgba(11, 31, 58, 0.08),
+    0 24px 48px -12px rgba(11, 31, 58, 0.16);
+
+  /* Elevated cards on dark surfaces — top highlight + deep ink shadow, no white crescent. */
+  --shadow-card-dark: inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 0 0 1px rgba(0, 0, 0, 0.22), 0 1px 2px rgba(0, 0, 0, 0.22),
+    0 16px 36px -10px rgba(6, 15, 31, 0.45);
+  --shadow-card-dark-hover: inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 0 0 1px rgba(0, 0, 0, 0.24), 0 4px 8px rgba(0, 0, 0, 0.24),
+    0 24px 48px -12px rgba(6, 15, 31, 0.55);
 }

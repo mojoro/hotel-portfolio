@@ -49,15 +49,17 @@ export default function Process() {
           </div>
 
           <ol className="relative lg:col-span-8">
-            <div
-              aria-hidden
-              className="absolute left-[19px] top-2 bottom-2 w-px bg-ink-900/10 sm:left-[23px]"
-            />
             {steps.map((s, i) => (
               <li
                 key={s.title}
                 className={`relative grid grid-cols-[44px_1fr] gap-5 ${i < steps.length - 1 ? 'pb-8' : ''} sm:grid-cols-[52px_1fr] sm:gap-6`}
               >
+                {i < steps.length - 1 && (
+                  <span
+                    aria-hidden
+                    className="pointer-events-none absolute left-[19px] top-10 bottom-0 w-px bg-ink-900/10 sm:left-[23px] sm:top-12"
+                  />
+                )}
                 <div className="flex justify-center">
                   <span className="z-10 grid h-10 w-10 place-items-center rounded-full bg-sand-50 font-display text-sm text-ink-900 shadow-[var(--shadow-inset-line)] sm:h-12 sm:w-12 sm:text-base">
                     {String(i + 1).padStart(2, '0')}

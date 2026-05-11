@@ -101,7 +101,7 @@ export default function Nav() {
               href={l.href}
               tabIndex={open ? undefined : -1}
               onClick={() => setOpen(false)}
-              className="rounded-lg px-3 py-3 text-base font-medium text-ink-800 transition-colors hover:bg-sand-100"
+              className="rounded-lg px-3 py-2 text-base font-medium text-ink-800 transition-colors hover:bg-sand-100"
             >
               {l.label}
             </a>
@@ -110,7 +110,7 @@ export default function Nav() {
             href="#audit"
             tabIndex={open ? undefined : -1}
             onClick={() => setOpen(false)}
-            className="mt-2 inline-flex items-center justify-center rounded-full bg-ink-900 px-4 py-3 text-sm font-medium text-sand-50 shadow-[var(--shadow-cta)]"
+            className="mt-2 inline-flex items-center justify-center rounded-full bg-ink-900 px-4 py-2 text-sm font-medium text-sand-50 shadow-[var(--shadow-cta)]"
           >
             Free hotel audit
           </a>

@@ -4,6 +4,7 @@ import LogoStrip from './components/LogoStrip';
 import CommissionMath from './components/CommissionMath';
 import DirectVsOTA from './components/DirectVsOTA';
 import Services from './components/Services';
+import Process from './components/Process';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <CommissionMath />
         <DirectVsOTA />
         <Services />
+        <Process />
       </main>
     </div>
   );

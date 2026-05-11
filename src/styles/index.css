@@ -4,4 +4,15 @@
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
     Roboto, sans-serif;
   --font-display: 'Fraunces', ui-serif, Georgia, 'Times New Roman', serif;
+
+  --color-ink-950: #060f1f;
+  --color-ink-900: #0b1f3a;
+  --color-ink-800: #122a4b;
+  --color-ink-700: #1a3866;
+  --color-ink-600: #2b4d83;
+  --color-ink-500: #4a6a9c;
+  --color-ink-400: #7a93b8;
+  --color-ink-300: #b1c1d8;
+  --color-ink-200: #d9e1ee;
+  --color-ink-100: #ecf1f8;
 }

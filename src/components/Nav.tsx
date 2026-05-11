@@ -85,14 +85,14 @@ export default function Nav() {
       <div
         aria-hidden={!open}
         className={[
-          'grid overflow-hidden bg-sand-50/95 shadow-[var(--shadow-top-line)] backdrop-blur transition-[grid-template-rows,opacity] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none md:hidden',
-          open ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0',
+          'overflow-hidden bg-sand-50/95 backdrop-blur transition-[max-height,opacity] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none md:hidden',
+          open ? 'max-h-[420px] opacity-100 shadow-[var(--shadow-top-line)]' : 'max-h-0 opacity-0',
         ].join(' ')}
       >
         <nav
           aria-label="Mobile"
           className={[
-            'mx-auto flex min-h-0 w-full max-w-7xl flex-col items-start gap-0.5 overflow-hidden px-6 py-3 transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none',
+            'mx-auto flex w-full max-w-7xl flex-col items-start gap-0.5 px-6 py-3 transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none',
             open ? 'translate-y-0' : '-translate-y-2',
           ].join(' ')}
         >

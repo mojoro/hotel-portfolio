@@ -27,4 +27,18 @@
   --color-brass-700: #8c6731;
 
   --color-leaf-600: #2f6b4f;
+
+  /* Hairlines — replace 1px gray borders. */
+  /* Crisp hairline for true-light (sand-50) surfaces and pills. */
+  --shadow-inset-line: inset 0 0 0 1px rgba(255, 255, 255, 0.65),
+    0 0 0 1px rgba(6, 15, 31, 0.06);
+  /* Slightly stronger affordance for secondary CTA pills on cream/grid backgrounds. */
+  --shadow-button-light: inset 0 0 0 1px rgba(255, 255, 255, 0.68),
+    0 0 0 1px rgba(6, 15, 31, 0.075), 0 2px 6px rgba(11, 31, 58, 0.035);
+  /* Softer hairline for tinted cream surfaces (sand-100, sand-100/x) — avoids harsh white rim. */
+  --shadow-hairline-soft: inset 0 0 0 1px rgba(255, 255, 255, 0.35),
+    0 0 0 1px rgba(6, 15, 31, 0.05);
+  /* Dark-surface hairline (ink-900). */
+  --shadow-inset-line-dark: inset 0 0 0 1px rgba(255, 255, 255, 0.09),
+    0 0 0 1px rgba(0, 0, 0, 0.22);
 }

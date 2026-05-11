@@ -1,4 +1,5 @@
 import Nav from './components/Nav';
+import Hero from './components/Hero';
 
 export default function App() {
   return (
@@ -10,7 +11,9 @@ export default function App() {
         Skip to main content
       </a>
       <Nav />
-      <main id="main" />
+      <main id="main">
+        <Hero />
+      </main>
     </div>
   );
 }

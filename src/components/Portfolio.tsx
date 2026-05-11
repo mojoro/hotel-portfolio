@@ -119,10 +119,10 @@ export default function Portfolio() {
                   {p.blurb}
                 </p>
                 <div className="mt-auto flex items-center justify-between gap-4 pt-9 shadow-[var(--shadow-top-line)] text-xs text-ink-500">
-                  <span className="font-medium uppercase tracking-wider">
+                  <span className="shrink-0 font-medium uppercase tracking-wider">
                     {p.location}
                   </span>
-                  <span className="text-right font-mono text-[11px]">
+                  <span className="min-w-0 truncate text-right font-mono text-[11px]">
                     {p.url.replace(/^https?:\/\//, '')}
                   </span>
                 </div>
